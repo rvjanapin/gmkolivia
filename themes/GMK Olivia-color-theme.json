@@ -113,6 +113,12 @@
 		"editorWidget.border": "#DEAF9D",
 		"editorWidget.foreground": "#DEAF9D",
 
+			"editorSuggestWidget.highlightForeground": "#F2EFED",
+			"editorSuggestWidget.background": "#4E3E3E",
+			"editorSuggestWidget.foreground": "#DEAF9D",
+			"editorSuggestWidget.border": "#00000000",
+			"editorSuggestWidget.selectedBackground": "#4E3E3E",
+
 		//peek view
 		"peekView.border": "#2c2a2ea2",
 		"peekViewEditor.background": "#2c2a2ea2",
