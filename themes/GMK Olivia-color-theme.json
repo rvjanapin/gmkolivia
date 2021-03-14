@@ -2,10 +2,44 @@
 	"name": "GMK Olivia",
 	"type": "dark",
 	"colors": {
+		//base colors
+		"focusBorder": "#deaf9d41",
+		"foreground": "#F2EFED",
+
+		//button
+
+		//list
+			//selection (active)
+			"list.activeSelectionBackground": "#2c2a2e",
+			"list.activeSelectionForeground": "#F2EFED",
+
+			//selection (inactive)
+			"list.inactiveSelectionBackground":	"#2c2a2ea2",
+			"list.inactiveSelectionForeground": "#f2efed",
+
+			//drop
+			"list.dropBackground": "#2c2a2ea2",
+
+			//hover
+			"list.hoverBackground": "#2c2a2e",
+
+		//activity bar/s (left-side icons by default)
+		"activityBar.background": "#1C1B1D", 
+		"activityBar.dropBorder": "#1C1B1D",
+		"activityBarBadge.background": "#BF616A",
+		"activityBar.foreground": "#DEAF9D",
+		"activityBarBadge.foreground": "#DEAF9D",
+
+		//sidebar (explorers/folders/source)
+		"sideBar.background": "#1C1B1D",
+		"sideBar.foreground": "#DEAF9D",
+		"sideBar.border": "#00000000",
+		"sideBarTitle.foreground": "#DEAF9D",
+		"sideBarSectionHeader.background": "#1C1B1D",
+		"sideBarSectionHeader.foreground": "#DEAF9D",
+
+
 		"editor.background": "#1C1B1D",
-		"editor.foreground": "#eeffff",
-		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb"
 	},
 	"tokenColors": [
 		{
