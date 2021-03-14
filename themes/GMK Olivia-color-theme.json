@@ -3,19 +3,39 @@
 	"type": "dark",
 	"colors": {
 		//base colors
-		"focusBorder": "#deaf9d41",
+		"focusBorder": "#00000000",
 		"foreground": "#F2EFED",
 
 		//button
+		"button.background": "#DEAF9D",
+		"button.foreground": "#1C1B1D",
+		"button.hoverBackground": "#DEAF9DC7",
+
+		//dropdowns
+		"dropdown.background": "#1C1B1D",
+		"dropdown.border": "#2c2a2ea2",
+		"dropdown.listBackground": "#1C1B1D",
+		"dropdown.foreground": "#DEAF9D",
+
+		//input
+		"input.background": "#1C1B1D",
+		"input.border": "#2c2a2ea2",
+		"input.foreground": "#F2EFED",
+
+		//scrollbar 
+		"scrollbar.shadow": "#00000000",
+		"scrollbarSlider.hoverBackground": "#2c2a2ea2",
+		"scrollbarSlider.background": "#1C1B1D",
+		"scrollbarSlider.activeBackground": "#2c2a2ea2",
 
 		//list
 			//selection (active)
 			"list.activeSelectionBackground": "#2c2a2e",
-			"list.activeSelectionForeground": "#F2EFED",
+			"list.activeSelectionForeground": "#DEAF9D",
 
 			//selection (inactive)
 			"list.inactiveSelectionBackground":	"#2c2a2ea2",
-			"list.inactiveSelectionForeground": "#f2efed",
+			"list.inactiveSelectionForeground": "#DEAF9D",
 
 			//drop
 			"list.dropBackground": "#2c2a2ea2",
@@ -38,8 +58,112 @@
 		"sideBarSectionHeader.background": "#1C1B1D",
 		"sideBarSectionHeader.foreground": "#DEAF9D",
 
+		//tab group
+		"editorGroup.border": "#00000000",
+		"editorGroup.dropBackground": "#00000000",
+		"editorGroupHeader.noTabsBackground": "#1C1B1D",
+		"editorGroupHeader.tabsBackground": "#1C1B1D",
+		"editorGroupHeader.tabsBorder": "#00000000",
+		"editorGroupHeader.border": "#1c1b1dbd",
+		"tab.activeBorder": "#DEAF9D",
 
+			//tabs active
+			"tab.activeBackground": "#1C1B1D",
+			"tab.unfocusedActiveBackground": "#1C1B1D",
+			"tab.activeForeground": "#DEAF9D",
+			"tab.border": "#00000000",
+
+			//inactive
+			"tab.inactiveBackground": "#1C1B1D",
+
+			//hover
+			"tab.hoverForeground": "#DEAF9D",
+
+		//editor
 		"editor.background": "#1C1B1D",
+		"editor.foreground": "#F2EFED",
+		"editorCursor.foreground": "#DEAF9DC7", 
+		"editorCursor.background": "#F2EFED",
+		
+			//line 
+			"editorLineNumber.foreground": "#deaf9dbb",
+			"editorLineNumber.activeForeground": "#DEAF9D",
+			"editor.lineHighlightBorder": "#00000000",
+			"editor.lineHighlightBackground": "#2c2a2ea2",
+			
+			//selections
+			"editor.selectionBackground": "#4E3E3E",
+
+			//searches
+			"searchEditor.findMatchBackground": "#4E3E3E",
+			"searchEditor.findMatchBorder": "#00000000",
+			
+			//symbols
+			"editor.symbolHighlightBackground": "#2c2a2ea2",
+			"editor.symbolHighlightBorder": "#00000000",
+
+			//diff colors
+			"diffEditor.insertedTextBackground": "#DEAF9DC7",
+			"diffEditor.insertedTextBorder": "#00000000",
+			"diffEditor.removedTextBackground": "#BF616A",
+			"diffEditor.border": "#00000000",
+
+		//editor widget
+		"editorWidget.background": "#1C1B1D",
+		"editorWidget.border": "#DEAF9D",
+		"editorWidget.foreground": "#DEAF9D",
+
+		//peek view
+		"peekView.border": "#2c2a2ea2",
+		"peekViewEditor.background": "#2c2a2ea2",
+		"peekViewEditorGutter.background": "#1C1B1D",
+
+		//panels
+		"panel.background": "#1C1B1D",
+		"panelSectionHeader.foreground": "#DEAF9D",
+		"panel.border": "#00000000",
+		"panelTitle.activeBorder": "#DEAF9D",
+		"panelTitle.activeForeground": "#DEAF9D",
+		"panelTitle.inactiveForeground": "#DEAF9DC7",
+
+
+		//status bar
+		"statusBar.background": "#1C1B1D",
+		"statusBar.foreground": "#DEAF9D",
+		"statusBar.debuggingBackground": "#2c2a2ea2",
+		"statusBar.border": "#00000000",
+		"statusBar.debuggingBorder": "#00000000",
+		"statusBarItem.hoverBackground": "#2c2a2ea2",
+
+			//remote
+			"statusBarItem.remoteBackground": "#BF616A",
+			"statusBarItem.remoteForeground": "#F2EFED",
+
+		//titlebar
+		"titleBar.activeBackground": "#1C1B1D",
+		"titleBar.activeForeground": "#DEAF9D",
+		"titleBar.inactiveBackground": "#1C1B1D",
+		"titleBar.inactiveForeground": "#DEAF9D",
+		"titleBar.border": "#00000000",
+
+		//menu bar
+
+		//extension 
+		"extensionButton.prominentBackground": "#DEAF9D",
+		"extensionButton.prominentForeground": "#1C1B1D",
+		"extensionButton.prominentHoverBackground": "#DEAF9DC7",
+
+		//git
+		"gitDecoration.addedResourceForeground": "#F2EFED",
+		"gitDecoration.modifiedResourceForeground": "#DEAF9DC7",
+		"gitDecoration.deletedResourceForeground": "#BF616A",
+		"gitDecoration.untrackedResourceForeground": "#4E3E3E",
+
+		//breadcrumbs
+		"breadcrumb.foreground": "#DEAF9D",
+		
+		//symbol icons
+		
 	},
 	"tokenColors": [
 		{
