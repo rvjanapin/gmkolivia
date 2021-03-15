@@ -6,7 +6,13 @@
 
 
 ### To install with vsix (NOT YET PUBLISHED)
-`code --install-extension gmk-olivia-1.0.0.vsix`
+* Downloard gmk-olivia-1.0.0.vsix from github
+* `code --install-extension gmk-olivia-1.0.0.vsix`
 
+#### For certain comments or changes
+* Syntax highlighting
+    * use syntax label
+* Editor colors
+    * use editor label 
 
 **Enjoy!**
