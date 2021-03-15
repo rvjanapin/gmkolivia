@@ -4,6 +4,9 @@
     "description": "Keycap theme",
     "version": "1.0.0",
     "publisher": "Vittojanapin",
+    "repository": {
+        "url": "https://github.com/rvjanapin/gmkolivia"
+    },
     "engines": {
         "vscode": "^1.54.0"
     },
