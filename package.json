@@ -2,7 +2,8 @@
     "name": "gmk-olivia",
     "displayName": "GMK Olivia",
     "description": "Keycap theme",
-    "version": "0.0.1",
+    "version": "1.0.0",
+    "publisher": "Vittojanapin",
     "engines": {
         "vscode": "^1.54.0"
     },

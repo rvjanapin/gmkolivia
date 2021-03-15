@@ -1,13 +1,12 @@
-# README
-## This is the README for your extension "gmk-olivia"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+# GMK-OLIVIA THEME 
+## Description
+* This theme was inspired by GMK-Olivia set keycaps
+* Dark theme , italics
+----------
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+### To install with vsix (NOT YET PUBLISHED)
+`code --install-extension gmk-olivia-1.0.0.vsix`
+
 
 **Enjoy!**
