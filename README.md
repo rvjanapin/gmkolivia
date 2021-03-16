@@ -4,17 +4,16 @@
 * Dark theme , italics
 ----------
 
-
-### To install with vsix (NOT YET PUBLISHED)
-#### Using terminal
-1. Downloard gmk-olivia-1.0.0.vsix from github
+## To install with vsix (NOT YET PUBLISHED)
+### Using terminal
+1. Downloard gmk-olivia-1.x.x.vsix from github
 2. unzip it 
 3. Use any terminal and go to the location where you downloaded VSIX file and paste:
 4. `code --install-extension gmk-olivia-1.0.0.vsix`
 5. Apply theme
 6. Reload VScode
 
-#### Using GUI
+### Using GUI
 1. Download gmk-olivia-1.x.x.vsix from github
 2. unzip
 3. Open VScode
