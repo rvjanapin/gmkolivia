@@ -1,4 +1,5 @@
 # GMK-OLIVIA THEME 
+!(preview.png)
 ## Description
 * This theme was inspired by GMK-Olivia set keycaps
 * Low contrast
