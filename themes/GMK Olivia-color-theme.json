@@ -131,6 +131,7 @@
 		"panelTitle.activeBorder": "#DEAF9D",
 		"panelTitle.activeForeground": "#DEAF9D",
 		"panelTitle.inactiveForeground": "#DEAF9DC7",
+		
 
 
 		//status bar
@@ -139,7 +140,11 @@
 		"statusBar.debuggingBackground": "#2c2a2ea2",
 		"statusBar.border": "#00000000",
 		"statusBar.debuggingBorder": "#00000000",
-		"statusBarItem.hoverBackground": "#2c2a2ea2",
+		"statusBarItem.hoverBackground": "#2c2a2ea2",	
+		"statusBar.noFolderBackground": "#1C1B1D",	
+		"statusBar.noFolderForeground": "#DEAF9D",
+		"statusBar.noFolderBorder": "#00000000",
+
 
 			//remote
 			"statusBarItem.remoteBackground": "#BF616A",
@@ -221,7 +226,7 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#DEAF9D"
+				"foreground": "#F2EFED"
 			}
 		},
 		{
@@ -265,7 +270,8 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#A39F9D"
+				"foreground": "#A39F9D",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -331,7 +337,8 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#DEAF9D"
+				"foreground": "#A39F9D",
+				"fontStyle": "bold"
 			}
 		},
 		{
