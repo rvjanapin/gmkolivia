@@ -5,6 +5,16 @@
 		//base colors
 		"focusBorder": "#00000000",
 		"foreground": "#F2EFED",
+		"widget.shadow": "#00000000",
+		"selection.background": "#1C1B1D",
+		"descriptionForeground": "#DEAF9D",
+		"errorForeground": "#BF616A",
+		"icon.foreground": "#DEAF9D",
+		"sash.hoverBorder": "#00000000",
+
+		"window.activeBorder": "#00000000",
+		"window.inactiveBorder": "#00000000",
+
 
 		//button
 		"button.background": "#DEAF9D",
@@ -30,11 +40,11 @@
 
 		//list
 			//selection (active)
-			"list.activeSelectionBackground": "#2c2a2e",
-			"list.activeSelectionForeground": "#DEAF9D",
+			"list.activeSelectionBackground": "#2C2A2E",
+			"list.activeSelectionForeground": "#F2EFED",
 
 			//selection (inactive)
-			"list.inactiveSelectionBackground":	"#2c2a2ea2",
+			"list.inactiveSelectionBackground":	"#1C1B1D",
 			"list.inactiveSelectionForeground": "#DEAF9D",
 
 			//drop
@@ -82,7 +92,7 @@
 		//editor
 		"editor.background": "#1C1B1D",
 		"editor.foreground": "#F2EFED",
-		"editorCursor.foreground": "#DEAF9DC7", 
+		"editorCursor.foreground": "#deaf9d77", 
 		"editorCursor.background": "#F2EFED",
 		
 			//line 
@@ -92,7 +102,8 @@
 			"editor.lineHighlightBackground": "#2c2a2ea2",
 			
 			//selections
-			"editor.selectionBackground": "#4E3E3E",
+			"editor.selectionForeground": "#DEAF9D",
+			"editor.selectionBackground": "#1C1B1D",
 
 			//searches
 			"searchEditor.findMatchBackground": "#4E3E3E",
@@ -109,15 +120,29 @@
 			"diffEditor.border": "#00000000",
 
 		//editor widget
+		"editorHoverWidget.background": "#1C1B1D",
+		"editorHoverWidget.border": "#DEAF9D",
+		"editorHoverWidget.foreground": "#DEAF9D",
 		"editorWidget.background": "#1C1B1D",
-		"editorWidget.border": "#DEAF9D",
 		"editorWidget.foreground": "#DEAF9D",
+		"editorWidget.border": "#DEAF9D",
 
-			"editorSuggestWidget.highlightForeground": "#F2EFED",
-			"editorSuggestWidget.background": "#4E3E3E",
-			"editorSuggestWidget.foreground": "#DEAF9D",
-			"editorSuggestWidget.border": "#00000000",
-			"editorSuggestWidget.selectedBackground": "#4E3E3E",
+
+		//suggest widget
+		"editorSuggestWidget.background": "#1C1B1D",
+		"editorSuggestWidget.border": "#DEAF9D",
+		"editorSuggestWidget.foreground": "#DEAF9D",
+		"editorSuggestWidget.selectedBackground": "#2c2a2ea2",
+		"editorSuggestWidget.highlightForeground": "#F2EFED",
+
+
+
+
+
+
+
+
+			
 
 		//peek view
 		"peekView.border": "#2c2a2ea2",
@@ -164,6 +189,7 @@
 		"extensionButton.prominentForeground": "#1C1B1D",
 		"extensionButton.prominentHoverBackground": "#DEAF9DC7",
 
+		
 		//git
 		"gitDecoration.addedResourceForeground": "#F2EFED",
 		"gitDecoration.modifiedResourceForeground": "#DEAF9DC7",
