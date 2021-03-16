@@ -102,8 +102,8 @@
 			"editor.lineHighlightBackground": "#2c2a2ea2",
 			
 			//selections
-			"editor.selectionForeground": "#DEAF9D",
-			"editor.selectionBackground": "#1C1B1D",
+			"editor.selectionForeground": "#F2EFED",
+			"editor.selectionBackground": "#deaf9d88",
 
 			//searches
 			"searchEditor.findMatchBackground": "#4E3E3E",
