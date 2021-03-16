@@ -15,7 +15,7 @@
 6. Reload VScode
 
 #### Using GUI
-1. Download gmk-olivia-1.0.0.vsix from github
+1. Download gmk-olivia-1.x.x.vsix from github
 2. unzip
 3. Open VScode
 4. Go to extensions tab at the activity bar
