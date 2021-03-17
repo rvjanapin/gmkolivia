@@ -12,14 +12,29 @@
 		"icon.foreground": "#DEAF9D",
 		"sash.hoverBorder": "#00000000",
 
+		//windows border
 		"window.activeBorder": "#00000000",
 		"window.inactiveBorder": "#00000000",
 
+		//text colors
+		"textBlockQuote.background": "#2c2a2ea2",
+		"textBlockQuote.border": "#00000000",
+		"textCodeBlock.background": "#2c2a2ea2",
+		"textLink.activeForeground": "#DEAF9D",
+		"textPreformat.foreground": "#F2EFED",
+		"textSeparator.foreground": "#2c2a2ea2",
 
 		//button
 		"button.background": "#DEAF9D",
 		"button.foreground": "#1C1B1D",
 		"button.hoverBackground": "#DEAF9DC7",
+		"button.secondaryBackground": "#F2EFED",
+		"button.secondaryForeground": "#1C1B1D",
+
+			//checkbox
+			"checkbox.background": "#2c2a2ea2",
+			"checkbox.foreground": "#DEAF9D",
+			"checkbox.border": "#00000000",
 
 		//dropdowns
 		"dropdown.background": "#1C1B1D",
@@ -67,7 +82,16 @@
 		"sideBarTitle.foreground": "#DEAF9D",
 		"sideBarSectionHeader.background": "#1C1B1D",
 		"sideBarSectionHeader.foreground": "#DEAF9D",
+		
+		//minimap
+		"minimap.findMatchHighlight": "#deaf9d88",
+		"minimap.selectionHighlight": "#deaf9d88",
+		"minimap.errorHighlight": "#BF616A",
+		"minimapGutter.addedBackground": "#DEAF9D",
+		"minimapGutter.deletedBackground": "#BF616A",
+		"minimapGutter.modifiedBackground": "#F2EFED",
 
+		
 		//tab group
 		"editorGroup.border": "#00000000",
 		"editorGroup.dropBackground": "#00000000",
@@ -127,23 +151,13 @@
 		"editorWidget.foreground": "#DEAF9D",
 		"editorWidget.border": "#DEAF9D",
 
-
 		//suggest widget
 		"editorSuggestWidget.background": "#1C1B1D",
 		"editorSuggestWidget.border": "#DEAF9D",
 		"editorSuggestWidget.foreground": "#DEAF9D",
 		"editorSuggestWidget.selectedBackground": "#2c2a2ea2",
 		"editorSuggestWidget.highlightForeground": "#F2EFED",
-
-
-
-
-
-
-
-
-			
-
+		
 		//peek view
 		"peekView.border": "#2c2a2ea2",
 		"peekViewEditor.background": "#2c2a2ea2",
@@ -157,8 +171,6 @@
 		"panelTitle.activeForeground": "#DEAF9D",
 		"panelTitle.inactiveForeground": "#DEAF9DC7",
 		
-
-
 		//status bar
 		"statusBar.background": "#1C1B1D",
 		"statusBar.foreground": "#DEAF9D",
@@ -169,7 +181,6 @@
 		"statusBar.noFolderBackground": "#1C1B1D",	
 		"statusBar.noFolderForeground": "#DEAF9D",
 		"statusBar.noFolderBorder": "#00000000",
-
 
 			//remote
 			"statusBarItem.remoteBackground": "#BF616A",
@@ -182,14 +193,11 @@
 		"titleBar.inactiveForeground": "#DEAF9D",
 		"titleBar.border": "#00000000",
 
-		//menu bar
-
 		//extension 
 		"extensionButton.prominentBackground": "#DEAF9D",
 		"extensionButton.prominentForeground": "#1C1B1D",
 		"extensionButton.prominentHoverBackground": "#DEAF9DC7",
 
-		
 		//git
 		"gitDecoration.addedResourceForeground": "#F2EFED",
 		"gitDecoration.modifiedResourceForeground": "#DEAF9DC7",
@@ -200,6 +208,53 @@
 		"breadcrumb.foreground": "#DEAF9D",
 		
 		//symbol icons
+			//vars	
+			"symbolIcon.arrayForeground": "#DEAF9D",
+			"symbolIcon.booleanForeground": "#DEAF9D",
+			"symbolIcon.colorForeground": "#DEAF9D",
+			"symbolIcon.constantForeground": "#DEAF9D",
+			"symbolIcon.interfaceForeground": "#DEAF9D",
+			"symbolIcon.nullForeground": "#DEAF9D",
+			"symbolIcon.numberForeground": "#DEAF9D",
+			"symbolIcon.propertyForeground": "#DEAF9D",
+			"symbolIcon.referenceForeground": "#DEAF9D",
+			"symbolIcon.stringForeground": "#DEAF9D",
+			"symbolIcon.unitForeground": "#DEAF9D",
+			"symbolIcon.variableForeground": "#DEAF9D",
+
+			//operator misc
+			"symbolIcon.textForeground": "#DBC2B8",
+			"symbolIcon.operatorForeground": "#DBC2B8",
+			"symbolIcon.snippetForeground": "#DBC2B8",
+
+			//modules and packages
+			"symbolIcon.moduleForeground": "#B3A49A",
+			"symbolIcon.namespaceForeground": "#B3A49A",
+
+			//function and classes
+			"symbolIcon.classForeground": "#A39F9D",
+			"symbolIcon.constructorForeground": "#A39F9D",
+			"symbolIcon.enumeratorForeground": "#A39F9D",
+			"symbolIcon.enumeratorMemberForeground": "#A39F9D",
+			"symbolIcon.eventForeground": "#A39F9D",
+			"symbolIcon.fieldForeground": "#A39F9D",
+			"symbolIcon.functionForeground": "#A39F9D",
+			"symbolIcon.methodForeground": "#A39F9D",
+			"symbolIcon.objectForeground": "#A39F9D",
+			"symbolIcon.structForeground": "#A39F9D",
+			"symbolIcon.typeParameterForeground": "#A39F9D",
+
+			//files
+			"symbolIcon.fileForeground": "#DEAF9D",
+			"symbolIcon.folderForeground": "#DEAF9D",
+
+			//keywords
+			"symbolIcon.keywordForeground": "#B3A49A",
+			"symbolIcon.keyForeground": "#B3A49A",
+
+
+
+
 		
 	},
 	"tokenColors": [
@@ -296,8 +351,7 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#A39F9D",
-				"fontStyle": "bold"
+				"foreground": "#A39F9D"
 			}
 		},
 		{
