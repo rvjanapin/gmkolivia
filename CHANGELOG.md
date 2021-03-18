@@ -18,4 +18,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [1.1.1]
 - major changes to suggestion widget
 
+## [1.1.2]
+- Fixes
+
+## [1.1.3]
+-Fixes with status bar
+
+
+
 
