@@ -46,6 +46,15 @@
 		"input.background": "#1C1B1D",
 		"input.border": "#2c2a2ea2",
 		"input.foreground": "#F2EFED",
+		"input.placeholderForeground": "#DEAF9D",
+		"inputOption.activeBorder": "#2c2a2ea2",
+		"inputOption.activeForeground": "#F2EFED",
+		"inputOption.activeBackground": "#1C1B1D",
+		
+			//input validation
+			"inputValidation.errorBackground": "#2c2a2e",
+			"inputValidation.errorBorder": "#1C1B1D",
+			"inputValidation.errorForeground": "#BF616A",
 
 		//scrollbar 
 		"scrollbar.shadow": "#00000000",
@@ -53,17 +62,24 @@
 		"scrollbarSlider.background": "#1C1B1D",
 		"scrollbarSlider.activeBackground": "#2c2a2ea2",
 
+		//badge
+		"badge.background": "#DEAF9D",
+		"badge.foreground": "#F2EFED",
+
+
+		"progressBar.background": "#DEAF9D",
+
 		//list
 			//selection (active)
 			"list.activeSelectionBackground": "#2C2A2E",
 			"list.activeSelectionForeground": "#F2EFED",
+			
+			//drop
+			"list.dropBackground": "#2c2a2ea2",
 
 			//selection (inactive)
 			"list.inactiveSelectionBackground":	"#1C1B1D",
 			"list.inactiveSelectionForeground": "#DEAF9D",
-
-			//drop
-			"list.dropBackground": "#2c2a2ea2",
 
 			//hover
 			"list.hoverBackground": "#2c2a2e",
@@ -204,6 +220,32 @@
 		"gitDecoration.deletedResourceForeground": "#BF616A",
 		"gitDecoration.untrackedResourceForeground": "#4E3E3E",
 
+		//settings
+		"settings.headerForeground": "#DEAF9D",
+
+			//modified
+			"settings.modifiedItemIndicator": "#BF616A",
+
+			//dropdowns
+			"settings.dropdownBackground": "#1C1B1D",
+			"settings.dropdownForeground": "#F2EFED",
+			"settings.dropdownBorder": "#1C1B1D",
+			"settings.dropdownListBorder": "#1C1B1D",
+
+			//checkbox
+
+			//text
+			"settings.textInputForeground": "#F2EFED",
+			"settings.textInputBorder": "#1C1B1D",
+			"settings.textInputBackground": "#1C1B1D",
+
+			//number
+			"settings.numberInputBackground": "#1C1B1D",
+			"settings.numberInputBorder": "#1C1B1D",
+			"settings.numberInputForeground": "#F2EFED",
+
+			"settings.focusedRowBackground": "#2c2a2ea2",
+
 		//breadcrumbs
 		"breadcrumb.foreground": "#DEAF9D",
 		
@@ -324,7 +366,8 @@
 				"punctuation.definition.tag.end.html",
 				"punctuation.section.embedded",
 				"keyword.other.template",
-				"keyword.other.substitution"
+				"keyword.other.substitution",
+				"meta.block.cpp"
 			],
 			"settings": {
 				"foreground": "#DBC2B8",
@@ -417,8 +460,7 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#A39F9D",
-				"fontStyle": "bold"
+				"foreground": "#A39F9D"
 			}
 		},
 		{
