@@ -308,7 +308,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#4E3E3E"
+				"foreground": "#554c4c"
 			}
 		},
 		{
@@ -547,7 +547,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#B3A49A"
+				"foreground": "#DEAF9D"
 			}
 		},
 		{
@@ -621,6 +621,7 @@
 				"*uri*"
 			],
 			"settings": {
+				"foreground": "#DEAF9D",
 				"fontStyle": "underline"
 			}
 		},
@@ -733,7 +734,7 @@
 				"punctuation.definition.list_item.markdown"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#F2EFED"
 			}
 		},
 		{
