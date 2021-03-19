@@ -24,6 +24,14 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [1.1.3]
 -Fixes with status bar
 
+## [1.2.0] 
+- Overall improvement
+- Added minimap colors, git, settings and many more
+
+## [1.2.1]
+- Patched tokens with more italics
+- Fixed comment colors
+
 
 
 
