@@ -1,7 +1,7 @@
 # Olivia
 ![preview](https://github.com/rvjanapin/gmkolivia/blob/master/Preview.png?raw=true)
 <div align="center">Font: Operator Mono</div>
----------
+-----------------------
 ## About 
 * This theme was inspired by GMK-Olivia set keycaps
 * Low contrast
